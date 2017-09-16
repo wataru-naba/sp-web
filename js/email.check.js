@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 			$('#submit').attr('disabled', true);
 			  $('#email_err').html('<span style="color:red; font-size:18px;">Emailの形式が正しくありません。');
+			alert('emailERR');
 	  }else{
 		  $('#submit').attr('disabled', false);
 		  $('#email_err').html('');
