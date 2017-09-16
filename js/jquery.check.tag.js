@@ -1,4 +1,5 @@
 var count = 0;
+
 $(function(){
      $("input[id^=inputpnf-]").click(function() {
         if($(this).prop('checked')) {
@@ -19,12 +20,12 @@ $(function(){
                  }
               }
               else {
-                 if(count < 2){
+                 if(count < 3){
                     $(id).prop("checked", true);
                     $(this).css({'background-color':'#3f3f3f','color':'#fff'});
                     count++;
                  }else{
-                     alert('パフレットは2つまでになります。');
+                     alert('パフレットは3つまでになります。');
                  }
               }  
     });
