@@ -21,6 +21,7 @@ function change_img(){
 		$(this).css("opacity", "1.0").animate({opacity: 0.1}, 1500, function(){
 			var temp = $(this).attr('src');
 			var temp2 = $('ul.nh-slider li:nth-child(1) img').attr('src');
+
 			$('ul.nh-slider li:nth-child(5) img').animate({opacity: 0.1}, 1000);
 			$('ul.nh-slider li:nth-child(1) img').animate({opacity: 0.1}, 1000);
 			
