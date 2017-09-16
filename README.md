@@ -1,2 +1,4 @@
 # sp-web
- for practice
+for practice
+
+github練習用のファイルです。
